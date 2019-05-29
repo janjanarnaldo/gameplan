@@ -18,3 +18,11 @@
   letter-spacing: -0.25pt;
   line-height: 18pt;
 }
+
+.subHeader.withSectionIcon {
+  margin-bottom: 40pt;
+}
+
+.subHeader.withSectionIcon .contentTitle {
+  margin-bottom: 20pt;
+}
