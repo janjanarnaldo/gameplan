@@ -17,7 +17,7 @@
 }
 
 .panel.colored.faded {
-  background-color: rgb(var(--colored-bg), 0.20);
+  background-color: rgb(var(--colored-bg), 0.10);
 }
 
 .panel > p,
