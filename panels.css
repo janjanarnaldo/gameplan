@@ -7,7 +7,7 @@
   background-color: var(--default-bg-color);
   border-radius: 5pt;
   box-sizing: border-box;
-  padding: 10pt;
+  padding: 10pt 10pt 12pt;
   margin-bottom: 15pt;
   font-weight: 500;
 }
@@ -27,7 +27,7 @@
 
 .panel > p,
 .panel > div {
-  margin: 0 0 7pt;
+  margin: 0 0 9pt;
 }
 
 .panel:not(.show-all-decorations) > p:last-child,
