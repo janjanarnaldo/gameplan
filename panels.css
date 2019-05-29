@@ -1,0 +1,80 @@
+/* panel */
+.panel {
+  --default-bg-color: #F2F4F7;
+  --colored-bg: var(--custom-bg-color, var(--theme-rgb-color));
+  --underline-color: #d0d8e0;
+  
+  background-color: var(--default-bg-color);
+  border-radius: 5pt;
+  box-sizing: border-box;
+  padding: 10pt;
+  margin-bottom: 15pt;
+  font-weight: 500;
+}
+
+.panel.colored {
+  background-color: rgb(var(--colored-bg));
+}
+
+.panel.colored.faded {
+  background-color: rgb(var(--colored-bg), 0.20);
+}
+
+.panel > p,
+.panel > div {
+  margin: 0 0 7pt;
+}
+
+.panel > p:last-child,
+.panel > div:last-child{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.panel .small {
+  font-size: 8pt;
+  margin-top: 10pt;
+}
+
+.panel .title {
+  font-size: 10pt;
+  font-weight: 700;
+}
+
+.panel .question {
+  opacity: 0.5;
+}
+
+.panel .answer {
+  padding: 0 0 5pt;
+}
+
+.panel .answer-group {
+  display: flex;
+}
+
+.panel .answer-group > span:nth-child(1) {
+  flex: 1;
+}
+
+.panel .answer-group > span:nth-child(2) {
+  flex: 2;
+  text-align: right;
+}
+
+.panel .answer:not(:last-child) {
+  border-bottom: 1.5pt solid var(--underline-color);
+}
+
+/* panel group */
+.panel-group {
+  display: flex;
+}
+
+.panel-group .panel {
+  flex: 1;
+}
+
+.panel-group .panel:not(:last-child) {
+  margin-right: 10pt;
+}
