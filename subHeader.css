@@ -6,14 +6,14 @@
 }
 
 .subHeader .title {
-  font-size: 14pt;
+  font-size: 10.5pt;
   color: rgb(var(--theme-rgb-color));
   opacity: 0.4;
   letter-spacing: -0.37pt;
 }
 
 .subHeader .contentTitle {
-  font-size: 17pt;
+  font-size: 12.75pt;
   color: rgb(var(--theme-rgb-color));
   letter-spacing: -0.25pt;
   line-height: 18pt;
