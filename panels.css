@@ -59,6 +59,7 @@
   line-height: 12.75pt;
   opacity: 0.66;
   font-size: 9pt;
+  display: flex;
 }
 
 .panel .subtitle-group > span:nth-child(1) {
