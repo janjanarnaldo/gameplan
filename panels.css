@@ -45,6 +45,10 @@
   margin-top: 10pt;
 }
 
+.panel .medium {
+  font-size: 9pt;
+}
+
 .panel .title {
   font-size: 10pt;
   font-weight: 700;
@@ -64,6 +68,11 @@
 
 .panel .subtitle-group > span:nth-child(1) {
   flex: 1;
+}
+
+.panel .subtitle-group > span:nth-child(2) {
+  flex: initial;
+  font-weight: 700;
 }
 
 .panel .question {
