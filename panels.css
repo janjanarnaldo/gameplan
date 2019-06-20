@@ -51,6 +51,20 @@
   margin: 0 0 10pt;
 }
 
+.panel .title.compact {
+  margin: 0;
+}
+
+.panel .subtitle-group {
+  line-height: 12.75pt;
+  opacity: 0.66;
+  font-size: 9pt;
+}
+
+.panel .subtitle-group > span:nth-child(1) {
+  flex: 1;
+}
+
 .panel .question {
   opacity: 0.5;
 }
@@ -73,7 +87,7 @@
 }
 
 .panel .answer {
-  border-bottom: 1.5pt solid var(--underline-color);
+  border-bottom: 1pt solid var(--underline-color);
 }
 
 .panel:not(.show-all-decorations) .answer:last-child {
@@ -113,6 +127,6 @@
 }
 
 .panel-group-multi .panel {
-  width: 241.5pt;
+  width: 246.2pt;
   margin: 7.5pt 5pt;
 }
