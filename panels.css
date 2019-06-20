@@ -61,18 +61,17 @@
 
 .panel .subtitle-group {
   line-height: 12.75pt;
-  opacity: 0.66;
   font-size: 9pt;
   display: flex;
 }
 
 .panel .subtitle-group > span:nth-child(1) {
+  opacity: 0.66;
   flex: 1;
 }
 
 .panel .subtitle-group > span:nth-child(2) {
   flex: initial;
-  font-weight: 700;
 }
 
 .panel .question {
@@ -81,6 +80,10 @@
 
 .panel .answer {
   padding: 0 0 5pt;
+}
+
+.panel .answer-simple {
+  margin: 0 0 5pt;
 }
 
 .panel .answer-group {
@@ -98,6 +101,10 @@
 
 .panel .answer {
   border-bottom: 1pt solid var(--underline-color);
+}
+
+.panel .answer-group.answer {
+  margin-bottom: 5pt;
 }
 
 .panel:not(.show-all-decorations) .answer:last-child {
