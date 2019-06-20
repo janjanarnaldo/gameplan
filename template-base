@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><!-- Title --></title>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href='https://s3-ap-southeast-2.amazonaws.com/prod-mycrm-static-documents/fonts/Geomanist/stylesheet.css'
+          rel='stylesheet' type='text/css'>
+    <link href="https://test-lm-shared-assets.s3-ap-southeast-2.amazonaws.com/crm-ui/style.css" rel="stylesheet" type="text/css">
+    <link href="./panel.css" rel="stylesheet" type="text/css">
+    <style>
+      body {
+        font-family: 'Source Sans Pro';
+      }
+      :root {
+        --theme-rgb-color: {{ThemeRGBColor}}
+        {{^ThemeRGBColor}}0, 170, 229{{/ThemeRGBColor}};
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <div class="subHeader">
+        <div class="title"><!-- Title --></div>
+        <div class="contentTitle"><!-- Content Title --></div>
+      </div>
+
+      <div class="content">
+        <!-- Contents -->
+      </div>
+    </div>
+    <script>
+    </script>
+  </body>
+</html>
